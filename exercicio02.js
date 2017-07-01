@@ -3,7 +3,6 @@ var importarMetodoNome = require('./dadosClientes.js').methodNome;
 var importarMetodoTelefone = require('./dadosClientes.js').methodTelefone;
 var importarMetodoEmail = require('./dadosClientes.js').methodEmail;
 
-
 console.log ("Usuarios da Loja Descritos de uma unica vez");
 console.log(users);
 
