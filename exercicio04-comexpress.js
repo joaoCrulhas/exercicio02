@@ -2,7 +2,6 @@ var express = require('express');
 var app = express();
 
 app.get('/perfil', function (req, res) {
-	//res.send("<head> <title> Perfil </title> </head> <body> <ul> <li> Formado em BCC </li> <li> </ul> ");
   res.sendFile(__dirname + '/perfil.html')
 });
 
